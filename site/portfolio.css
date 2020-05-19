@@ -1,0 +1,150 @@
+/* *{
+     background-color: #FFFFFF;
+} */
+
+body {
+     font-family: 'Karla-Regular';
+}
+
+.parent {
+     display:grid;
+     grid-template-columns: 3fr 3fr;
+     /* grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr; */
+
+     /*
+     grid-template-columns: 1fr 1fr 1fr;
+
+     1 2 3
+     4 5 6
+     7
+     */
+}
+
+/* Nested grid in wide (right) column. */
+/*
+.main_content{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 2em ;
+}
+*/
+
+header {
+     font-family: "Le Murmure Regular", sans-serif;
+     font-kerning: 10%;
+     width: 100%;
+     text-align: left;
+     font-size: 92px;
+     COLOR: #F2B07A;
+     /* grid-column: 1/-1; */
+     /* grid-row: 1/3; */
+     padding-left: 20px;
+     padding-top: 9px
+}
+
+
+
+.peice1 {
+
+     font-family:"space mono";
+     padding: 0px 45px 45px 45px;
+     /* grid-column: 2/4; */
+     /* grid-row: 3/7; */
+     /* background: #FFFFFF; */
+     /* background-image: url('images/booklet.jpg'); */
+     /* background-size: 550px; */
+     /* background-position: center; */
+
+
+}
+
+
+section.piece {
+     position: relative;
+     left: 20px ;
+     bottom: 200px ;
+}
+
+
+section.piece p.image_parent {
+     height: 800px ;
+
+}
+
+section.piece p.caption{
+     background:transparent;
+     font-size: 45px;
+     margin-bottom: 0 ;
+     padding: 0px;
+     position: absolute;
+     top: 20px ;
+     left: 30px ;
+}
+
+section.piece p.image_parent img {
+     width: 100% ;
+     height: 100% ;
+     border-radius: 0px;
+     object-fit: cover;
+     padding: -300px;
+}
+
+nav p {
+     Float: left ;
+     text-decoration: none;
+     font-family: "Karla";
+     /* grid-column: 1/2; */
+     margin-top: -10px;
+     font-size: 16px;
+     line-height: 63px;
+     /* display: flex; */
+     align-items: center;
+     text-align: center;
+     padding-right: 18px ;
+     padding-left: 25px ;
+}
+
+nav a {
+     color: black;
+     text-decoration: none;
+}
+
+nav p:hover a {
+     color: #9000ff;
+}
+
+nav p:hover {
+     color: purple ;
+}
+
+nav p.currentpage a {
+     color: #F2B07A ;
+}
+
+content {
+padding: 25px ;
+box-decoration-break: clone;
+
+}
+
+
+
+/*
+.currentpage{
+     font-family: "space mono";
+     width: 191.28px;
+     height: 81px;
+     background: #FFFFFF;
+     box-shadow: inset 3px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 124.5px;
+     width: 145px;
+     height: 53px;
+     font-size: 36px;
+     line-height: 53px;
+     align-items: center;
+     text-align: center;
+     padding:20px;
+     letter-spacing: 0.1em;
+     color: #000000;
+}
+*/
